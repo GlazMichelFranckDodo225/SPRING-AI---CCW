@@ -1,5 +1,7 @@
 package com.dgmf;
 
+/* The v1 code (as a beginner would write it) */
+
 // This class represents an Educational Assistant Service that
 // interacts with the Ollama model.
 public class AssistantService {

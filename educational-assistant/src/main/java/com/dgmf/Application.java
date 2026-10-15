@@ -1,5 +1,7 @@
 package com.dgmf;
 
+/* The v1 code (as a beginner would write it) */
+
 // This is the main application class that demonstrates the
 // usage of the AssistantService.
 public class Application {

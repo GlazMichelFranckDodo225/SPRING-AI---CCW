@@ -1,5 +1,7 @@
 package com.dgmf;
 
+/* The v1 code (as a beginner would write it) */
+
 // This is a simple class that simulates interaction with
 // the Ollama model.
 public class OllamaModel {
