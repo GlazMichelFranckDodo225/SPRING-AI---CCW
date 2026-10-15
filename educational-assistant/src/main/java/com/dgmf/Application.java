@@ -1,17 +1,17 @@
 package com.dgmf;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// This is the main application class that demonstrates the
+// usage of the AssistantService.
 public class Application {
+    // The main method serves as the entry point of the application.
     static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+        // Create an instance of the AssistantService.
+        AssistantService assistantService = new AssistantService();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
+        // Use the AssistantService to get a response for a
+        // specific request
+        System.out.println(
+                assistantService.response("What is Spring?")
+        );
     }
 }
