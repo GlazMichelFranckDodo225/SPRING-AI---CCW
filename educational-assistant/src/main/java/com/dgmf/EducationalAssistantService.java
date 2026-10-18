@@ -6,7 +6,7 @@ package com.dgmf;
 // interacts with the Ollama model.
 public class EducationalAssistantService {
     // The OllamaModel instance used to generate responses.
-    // The AssistantService is tightly coupled with the OllamaModel,
+    // The EducationalAssistantService is tightly coupled with the OllamaModel,
     // making it difficult to replace or mock the model for testing purposes.
     private final OllamaModel ollamaModel = new OllamaModel();
 
