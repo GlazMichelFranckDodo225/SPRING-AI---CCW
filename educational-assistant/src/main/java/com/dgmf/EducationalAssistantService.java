@@ -4,7 +4,7 @@ package com.dgmf;
 
 // This class represents an Educational Assistant Service that
 // interacts with the Ollama model.
-public class AssistantService {
+public class EducationalAssistantService {
     // The OllamaModel instance used to generate responses.
     // The AssistantService is tightly coupled with the OllamaModel,
     // making it difficult to replace or mock the model for testing purposes.

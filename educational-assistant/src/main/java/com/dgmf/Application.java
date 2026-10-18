@@ -8,7 +8,7 @@ public class Application {
     // The main method serves as the entry point of the application.
     static void main(String[] args) {
         // Create an instance of the AssistantService.
-        AssistantService assistantService = new AssistantService();
+        EducationalAssistantService assistantService = new EducationalAssistantService();
 
         // Use the AssistantService to get a response for a
         // specific request
