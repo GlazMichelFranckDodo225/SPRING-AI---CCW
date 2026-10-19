@@ -1,16 +1,21 @@
 package com.dgmf;
 
-/* The v1 code (as a beginner would write it) */
+// This class represents the Ollama model, which implements
+// the AIModel interface.
+public class OllamaModel implements AIModel {
+    // The URL of the Ollama model's endpoint.
+    private final String url;
 
-// This is a simple class that simulates interaction with
-// the Ollama model.
-public class OllamaModel {
-    // The URL of the Ollama model server. // Hard-coded configuration
-    private final String url = "https://localhost:11434";
+    // Constructor that initializes the OllamaModel with the given URL.
+    public OllamaModel(String url) {
+        // Initialize the URL.
+        this.url = url;
+    }
 
-    // This method simulates generating a response from the
-    // Ollama model based on the given prompt.
+    // This method generates a response based on the provided prompt.
+    @Override
     public String generate(String prompt) {
+        // Return a simulated response from the Ollama model.
         return "[Ollama @ " + url + "] Response to : " + prompt;
     }
 }
